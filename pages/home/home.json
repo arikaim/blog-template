@@ -6,7 +6,8 @@
     
     "labels": {
         "store": "Arikaim Store",
-        "details": "details"
+        "details": "details",
+        "test": "test"
     },
     "features": {
         "easy": {

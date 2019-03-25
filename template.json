@@ -1,0 +1,32 @@
+{      
+    "title": "Blog",
+    "version": "1.0",
+    "include": {            
+        "css": [
+            "blog.css"
+        ],
+        "js": [
+            "blog.js"
+        ],
+        "library": [
+            "jquery",
+            "jquery-ui",   
+            "arikaim",
+            "semantic"
+        ]
+    },
+    "current": true,
+    "default-theme": "arikaim",
+    "themes": {           
+        "arikaim": {
+            "title": "Arikaim",
+            "template": "system",
+            "file": "semantic.min.css"                    
+        }
+    },
+    "routes": [{
+            "path": "/",
+            "page": "home",
+            "name": "Home page"
+    }]
+}

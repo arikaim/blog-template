@@ -1,2 +1,1 @@
-# simple-template
-Arikaim Simple Template
+## Arikaim CMS Blog Template

@@ -12,7 +12,9 @@
             "jquery",
             "jquery-ui",   
             "arikaim",
-            "semantic"
+            "arikaim-ui",
+            "semantic",
+            "tailwind"
         ]
     },
     "current": true,

@@ -1,6 +1,6 @@
 {
     "name": "arikaim/blog-template",
-    "description": "Arikam Blog Template",
+    "description": "Arikam CMS Blog Template",
     "keywords": ["Module", "Arikaim Blog template"],
     "type": "arikaim-template",
     "license": "GPL-3.0-or-later",
@@ -10,7 +10,7 @@
         "homepage": "http://arikaim.com"
     }],
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.1",
         "arikaim/installer": "*"
     },
     "extra": {

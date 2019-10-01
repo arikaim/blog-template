@@ -10,20 +10,18 @@
         ],
         "library": [
             "jquery",
-            "jquery-ui",   
             "arikaim",
             "arikaim-ui",
-            "semantic",
+            "fomantic",
             "tailwind"
         ]
     },
     "current": true,
-    "default-theme": "arikaim",
+    "default-theme": "default",
     "themes": {           
-        "arikaim": {
-            "title": "Arikaim",
-            "template": "system",
-            "file": "semantic.min.css"                    
+        "default": {
+            "title": "Default",
+            "librayr": "fomantic"                        
         }
     },
     "routes": [{

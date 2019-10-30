@@ -1,6 +1,8 @@
 {      
     "title": "Blog",
-    "version": "1.0",
+    "name": "blog",
+    "version": "1.0.4",
+    "repository": "https://github.com/arikaim/blog-template.git",
     "include": {            
         "css": [
             "blog.css"

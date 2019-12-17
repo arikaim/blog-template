@@ -1,34 +1,25 @@
 {% set version = system().getVersion() %}
-<div class="ui attached inverted menu dark-background shadow">
+<div class="ui attached inverted menu navbar">
     <div class='ui container'>
         <div class="ui item mobile only column tablet only column grid">
             {{ component('blog:menu') }}
         </div>
-        <div href="#" title="{{ brand.title }}" class="item">    
-            {% if brand.image.src -%}
-            <img width="32px" height="32px" alt="{{ brand.image.alt }}" src="{{ system_template_url }}/images/{{ brand.image.src }}">
-            {% endif -%}    
-            <div class="page-title">
+        <div href="#" title="{{ brand.title }}" class="item">     
+            <div class="brand">
                 {{ brand.title }}
             </div>          
         </div>   
-        <div class="ui computer only column inverted right menu dark-background grid">    
-            <a class="item" href="{{ url('admin/') }}">
-                <i class="icon options"></i>
-                {{ labels.admin }}
+        <div class="ui inverted menu">
+            <a class="item" href="{{ url('/') }}" >
+                {{ links.home }}
             </a>
         </div>
     </div>
 </div>
-<div class="ui equal width padded grid">
+<div class="ui equal width padded grid shadow">
     <div class="olive column">
         <div class="ui container padding-left-4 dark-color">
-            <div class="computer column tablet column">
-                <h4>{{ sub_title }}</h4>
-            </div>
-            <div class="version">
-                {{ labels.version }} <span class="text">{{ version }}</span>
-            </div>
+            
         </div>
     </div>
 </div>

@@ -2,7 +2,7 @@
     "title": "Blog",
     "name": "blog",
     "package-type": "template",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "repository": "https://github.com/arikaim/blog-template.git",
     "include": {            
         "css": [
@@ -29,7 +29,7 @@
     },
     "routes": [{
             "path": "/",
-            "page": "home",
+            "page": "page",
             "name": "Home page"
     }]
 }

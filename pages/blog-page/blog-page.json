@@ -1,4 +1,7 @@
 {
+    "labels": {
+        "home": "Home"
+    },
     "head": {
         "title": "Blog",
         "description": "Blog"

@@ -19,12 +19,5 @@
             "fomantic",
             "tailwind"
         ]
-    },
-    "default-theme": "default",
-    "themes": {           
-        "default": {
-            "title": "Default",
-            "library": "fomantic"                        
-        }
-    }
+    }   
 }

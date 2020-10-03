@@ -2,7 +2,7 @@
     {% component 'blog:panel' %}
     {% set page_url = createModel('Pages','blog').getCategotyPageUrl() %}
     <div class="mt-4 p-4 pt-6 bg-gray-100 rounded segment shadow">
-        {{ component('category::categories.list',{ 
+        {{ component('blog>categories',{ 
             class: 'middle aligned selection',                  
             item_class: 'p-2 category-item',
             item_text_class: 'text-2xl p-1',

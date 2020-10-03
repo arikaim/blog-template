@@ -3,6 +3,7 @@
         "home": "Home"
     },
     "head": {
+        "favicon": "{{ template_url }}/images/arikaim-favicon.png",    
         "title": "Blog",
         "description": "Blog"
     }    

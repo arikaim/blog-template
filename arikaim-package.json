@@ -2,9 +2,21 @@
     "title": "Blog",
     "name": "blog",
     "package-type": "template",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "repository": "https://github.com/arikaim/blog-template.git",
     "icon": "blog",
+    "require": {
+        "library": [
+            "arikaim",
+            "arikaim-ui",
+            "jquery",
+            "fomantic",
+            "tailwind"
+        ],
+        "extensions": [
+            "blog"
+        ]
+    },
     "include": {            
         "css": [
             "blog.css"
@@ -18,6 +30,7 @@
             "arikaim-ui",
             "fomantic",
             "tailwind"
-        ]
+        ],
+        "framework": "fomantic"
     }   
 }

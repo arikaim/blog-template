@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {{ component('components:head',{ 'head': head }) }}
+    {{  component('components:head',{
+            library_files: library_files,
+            template_files: template_files,
+            page_files: page_files, 
+            head: head,
+            component_files: component_files
+        })
+    }}
     <body id="page">
         {{ body|raw }}
     </body>

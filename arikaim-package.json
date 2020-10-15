@@ -2,7 +2,7 @@
     "title": "Blog",
     "name": "blog",
     "package-type": "template",
-    "version": "1.0.11",
+    "version": "1.1.0",
     "repository": "https://github.com/arikaim/blog-template.git",
     "icon": "blog",
     "require": {

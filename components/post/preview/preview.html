@@ -1,7 +1,7 @@
 <div class="ui row mt-8">
     <h2 class="ui header {{ class }}">               
         <div class="content">                 
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ url(post.url) }}">{{ post.title }}</a>
             <div class="sub header">
                 <span class="ui text small">{{ labels.published }}</span>
                 <span class="ui text small bold">{{ post.date_created|dateFormat('full') }}</span>               
@@ -14,7 +14,7 @@
         {% endmd %}
         {% if show_more_link == true %}
         <div class="mt-1">
-            <a href="{{ post.url }}">{{ labels.more }}</a>   
+            <a href="{{ url(post.url) }}">{{ labels.more }}</a>   
         </div>
         {% endif %}
     </div>

@@ -1,5 +1,5 @@
-"use strict";
+'use strict';
 
-$(document).ready(function() {      
+arikaim.component.onLoaded(function() {   
     $('#mobile_menu').dropdown({});
 });

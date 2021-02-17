@@ -10,15 +10,13 @@
 {% if max_items is empty %}
     {% set max_items = items.count()  %}
 {% endif %}
-{% set page_url = page_url|default('{{ slug }}') %}
 {% set index = 1 %}
-
 <div class="ui list {{ class }}">
     {% for item in items %} 
         {%- if index <= max_items %}
-            {%- set url = page_url|renderText({ slug: item.getSlug() }) -%}
+            {%- set url = getPageUrl('blogCategoryPage','blog',{ slug: item.getSlug() }) -%}          
             <div class="item {{- item_class -}}">      
-                <a href="{{ url(url,true) }}">        
+                <a href="{{ url }}">        
                     <span class="{{ item_text_class }}">{{ item.getTitle(null,language)|string }}</span>
                 </a>           
             </div>

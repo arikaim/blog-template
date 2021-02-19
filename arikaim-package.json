@@ -21,9 +21,6 @@
         "css": [
             "blog.css"
         ],
-        "js": [
-            "blog.js"
-        ],
         "library": [
             "jquery",
             "arikaim",

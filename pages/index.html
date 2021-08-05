@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-<html>
-    {{  component('components:head',{
-            library_files: library_files,
-            template_files: template_files,
-            page_files: page_files, 
-            head: head,
-            component_files: component_files
-        })
-    }}
+<html lang="{{ current_language|default('en') }}">
+    {% component 'components:head' type 'html' %}
+    {# Custom head content #}    
+    {% endcomponent %}
     <body id="page">
         {{ body|raw }}
     </body>

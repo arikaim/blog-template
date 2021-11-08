@@ -4,7 +4,7 @@
         {{ component('blog:post.preview',{ post: post }) }}
     {% endfor %}     
     <div id="paginator" class="paginator mt-10">
-        {{  component('components:paginator.page',{ 
+        {{  component('semantic~paginator.page',{ 
                 page_url: page_url,
                 data: paginator.getPaginatorData(),
                 simple_mode: true 

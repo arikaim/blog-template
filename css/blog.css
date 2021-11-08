@@ -4,6 +4,11 @@ body {
     min-height: 100vh;
     padding: 0px;   
 }
+#test {
+  
+  
+}
+
 .page {
     min-height: 100vh;
     position: relative;
@@ -12,6 +17,8 @@ body {
     background: rgb(43,108,176);
     background: linear-gradient(180deg, rgba(43,108,176,1) 0%, rgba(0,212,255,0.0472921590511205) 15%); 
 }
+
+
 .title-icon {
     opacity: 0.9!important;
     color: #c05621!important;

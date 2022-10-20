@@ -3,7 +3,7 @@
 ![license: GPL3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 
-#### Requirements 
+### Requirements 
   * [Arikaim CMS](https://github.com/arikaim/arikaim)
   * [Blog Extension](https://github.com/arikaim/blog-extension)
   * UI libraries
@@ -14,13 +14,13 @@
     * tailwind
 
 
-#### Installation
+### Installation
 
 ```sh
 composer require arikaim/blog-template
 ```
 
-#### Customization 
+### Customization 
 
 In theme folder: 
 

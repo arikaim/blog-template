@@ -25,10 +25,15 @@ composer require arikaim/blog-template
 In theme folder: 
 
 1. Install Tailwind CSS
+```sh
     npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
-   
+```
 2.  Install daisyui
+```sh
     npm i daisyui
+```
 
 3. Start watch process
+```sh
     npx tailwindcss -o css/tailwind.min.css -m --watch
+```

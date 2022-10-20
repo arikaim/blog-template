@@ -2,8 +2,7 @@
     "message": "Page not found",
     "title": "Alert",
     "head": {
-        "favicon": "{{ template_url }}/images/arikaim-favicon.png",    
-        "title": "Blog page not found",
-        "description": "Blog page not found"
-    }  
+        "favicon": "{{ template_url }}/images/favicon.svg",  
+        "title": "Page not found"
+    }
 }

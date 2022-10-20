@@ -19,3 +19,16 @@
 ```sh
 composer require arikaim/blog-template
 ```
+
+#### Customization 
+
+In theme folder: 
+
+1. Install Tailwind CSS
+    npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+   
+2.  Install daisyui
+    npm i daisyui
+
+3. Start watch process
+    npx tailwindcss -o css/tailwind.min.css -m --watch

@@ -1,8 +1,0 @@
-{
-    "head": {
-        "favicon": "{{ template_url }}/images/arikaim-favicon.png",    
-        "title": "{{title}}",
-        "description": "{{description}}",
-        "keywords": "{{keywords}}"
-    }    
-}

@@ -10,7 +10,6 @@
         "homepage": "http://arikaim.com"
     }],
     "require": {
-        "php": ">=7.1",
         "arikaim/installer": "*"
     },
     "extra": {        

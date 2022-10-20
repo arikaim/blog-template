@@ -1,9 +1,3 @@
 {
-    "id": "navbar",
-    "brand": {
-        "title": "Blog"
-    },   
-    "links": {
-        "home": "Home"   
-    }
+    "title": "Arikaim"
 }

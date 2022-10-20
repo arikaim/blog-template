@@ -2,7 +2,7 @@
     "title": "Blog",
     "name": "blog",
     "package-type": "template",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "repository": "https://github.com/arikaim/blog-template.git",
     "icon": "blog",
     "require": {
@@ -10,23 +10,35 @@
             "arikaim",
             "arikaim-ui",
             "jquery",
-            "fomantic",
-            "tailwind"
+            "fomantic"
         ],
         "extensions": [
             "blog"
         ]
     },
+    "routes": [
+        {
+            "path": "/",         
+            "home": true,  
+            "page": "home",
+            "language-path": true,
+            "name": "Home"                   
+        }
+    ],
+    "themes": [
+        "default"
+    ],
+    "default-theme": "default",
     "include": {            
         "css": [
-            "blog.css"
+            "preflight.css",
+            "style.css",
+            "tailwind.min.css"
         ],
         "library": [
             "jquery",
             "arikaim",
-            "arikaim-ui",
-            "fomantic",
-            "tailwind"
+            "arikaim-ui"
         ]
     }   
 }

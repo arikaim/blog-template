@@ -3,7 +3,7 @@
         "home": "Home"
     },
     "head": {
-        "favicon": "{{ template_url }}/images/arikaim-favicon.png",    
+        "favicon": "/images/arikaim-favicon.png",    
         "title": "Arikaim CMS",
         "description": "Arikaim CMS"
     }    

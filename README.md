@@ -10,7 +10,6 @@
     * jquery
     * arikaim
     * arikaim-ui
-    * fomantic
     * tailwind
 
 

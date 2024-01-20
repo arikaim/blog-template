@@ -10,7 +10,7 @@
         <meta name="Cache-Control" content="{{ head.cache_control|default("max-age=31536000") }}"/>   
         <link rel="icon" type="image/png" href="{{ template_url }}{{ head.favicon }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale={{ head.minimum_scale|default("1.0") }},maximum-scale={{ head.maximum_scale|default("1.0") }}" />   
-        {{ head_code }}
+        {{ head.html_code }}
     </head>
     <body id="page">        
         {{ body|raw }}
